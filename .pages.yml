@@ -1,0 +1,24 @@
+media: media
+
+content:
+  - name: site
+    label: Shop Settings
+    type: file
+    path: data/site.json
+    format: json
+    fields:
+      - name: shopName
+        label: Shop Name
+        type: string
+
+      - name: phone
+        label: WhatsApp / Phone
+        type: string
+
+      - name: shopImage
+        label: Shop Photo
+        type: image
+
+      - name: tagline
+        label: Tagline
+        type: text
